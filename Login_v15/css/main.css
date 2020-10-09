@@ -285,7 +285,7 @@ border-bottom: 2px solid black;
 
   position: absolute;
   top: 14px;
-  /* left: -105px; */
+  left: -105px;
   width: 80px;
 
 }
@@ -466,11 +466,11 @@ input.input100 {
     padding: 0 30px;
   }
 
-  .wrap-input100 {
+  /* .wrap-input100 {
     padding: 0px 20px;
     position: relative;
     border-bottom: 1px solid #b2b2b2;
-  }
+  } */
   .container-login100 {
     width: 100%;  
     min-height: 85vh;
