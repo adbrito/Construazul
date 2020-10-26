@@ -573,10 +573,11 @@ nav{
   padding: 20px 0px;
   background: #0d0d6a;
   color: #48ccc4;
+  height: 70px;
 }
 
 footer{
-  /* height: 220px; */
+   height: 220px; 
   padding: 15px 0px;
   font-size: 12px;
   background: #111;
@@ -615,4 +616,156 @@ footer{
   padding: 15px 10px 15px 20px;
 
 }
+
+/* ----------------------------------------------------------------------------------------- */
+#buscador{
+  width: 630px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../images/icons/search.png');
+  background-position: 10px 7px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 60px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* #buscador:focus {
+  width: 100%;
+} */
+
+
+.container-buscandor{
+  padding: 0px 100px;
+}
+
+.barra-principal{
+  display: flex;
+  border-top: 2px solid #0d0d6a;
+  border-bottom: 2px solid #0d0d6a;
+  height: 70px;
+}
+
+
+.wrapper-home{
+  display: block;
+}
+
+
+.contenedor{
+  
+}
+
+.contener-categoria{
+  padding: 20px 10px 0px;
+}
+
+.contener-categoria:hover{
+  background: #ccc;
+  border-radius: 4px;
+}
+
+
+.contenedor-home{
+  display: flex;
+  padding: 15px 50px;
+  justify-content: space-around;
+  border-bottom: 2px solid #0d0d6a;
+  /*border-bottom: #0d0d6a;*/
+}
+
+.contener-categoria img{
+  display: block;
+  margin: auto;
+    padding: 5px 10px;
+}
+
+.contener-categoria h4{
+padding: 10px 0px;
+text-align: center;
+width: 230px;
+}
+
+#categoria{
+  padding: 20px 0px;
+  text-align: center;
+  color: #0d0d6a;
+
+}
+
+.btn-principal{
+  margin: 15px 20px;
+  /* border: 2px solid #0d0d6a;
+  border-radius: 10px; */
+  width: 130px;
+  height: 35px;
+  font-size: 17px;
+  color: #0d0d6a;
+}
+
+.btn-principal:hover{
+  font-size: 20px;
+  color: #48ccc4;
+  font-weight: bold;
+  width: 150px;
+
+}
+
+.alig-der{
+  margin-left: auto;
+}
+
+.contenedor-secundario{
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-around;
+}
+
+.contener-frase{
+  padding: 0px 10px;
+
+}
+.contener-frase div{
+  padding: 20px 10px;
+  margin: 30px;
+  text-align: center;
+  width: 270px;
+  border: 1px solid #0d0d6a;
+}
+
+.contener-frase div h4{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  color: #0d0d6a;
+}
+
+.contener-frase div p{
+  text-align: center;
+  padding: 15px 0px;
+  color: black;
+}
+
+.contener-frase img{
+  display: block;
+  margin: auto;
+}
+
+a{
+  color: #48ccc4;
+}
+
+
+/* cateoria.html */
+
+#remodelacion{
+  padding: 20px 0px;
+  text-align: center;
+  color: #0d0d6a;
+}
+
+
 
